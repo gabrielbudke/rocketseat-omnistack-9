@@ -18,12 +18,14 @@
 const User = require('../models/User');
 
 module.exports = {
+    // Método para criação de um sessão
     async store(req, res) {
         const { email } = req.body;
         
         // Verifica se já existe um e-mail cadastrado no banco de dados
         let user = await User.findOne({ email });
 
+        // Caso não exista, ele cria
         if(!user){
             user = await User.create({ email });
         }
