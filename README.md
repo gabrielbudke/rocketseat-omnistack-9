@@ -1,25 +1,35 @@
-# AIRCNC
+
+![](/resources/wallpaper.png)
+
+# AirCnc - Projeto Omnistack 9.0
+
+Projeto desenvolvido durante a semana Omnistack 9.0
 
 _Project developed during the week Omnistack 9.0_
 
-Projeto desenvolvido durante a semana Omnistack 9.0 realizada pela Rocketseat.
 
 ## Getting Started / Começando
 
-_To run the project you can clone the repository to run on your local machine or download it._
-
 Para executar o projeto é necessário realizar um clone do repositório ou realizar o dowload.
+
+_To execute the project it is necessary to clone the repository or download it._
+
 
 ### Installing
 
-Depois de clonado o respositório, é necessário executar os comandos abaixo via terminal tanto nas pastas de backend como frontend:
+Depois de clonado o repositório, é necessário executar os comandos abaixo via terminal tanto nas pastas de backend como frontend:
 
-- Yarn (caso esteja usando o yarn como gerenciado de pacotes)
+_Once you have cloned the repository, you must execute the following commands via terminal in both the backend and frontend folders._
+
+
+- **Yarn** (caso esteja usando o yarn como gerenciador de pacotes)
+- _**Yarn** (if you are using yarn as a package manager)_
 ```
 yarn ou yarn init
 ``` 
 
- - npm (caso esteja usando o npm como gerenciador de pacotes)
+ - **npm** (caso esteja usando o npm como gerenciador de pacotes)
+ - _**npm** (if you are using npm as a package manager)_
 ```
 npm init
 ```
@@ -30,12 +40,16 @@ npm init
 
 Para rodar o servidor de backend é preciso executar o comando abaixo via terminal dentro da pasta backend:
 
-- Caso esteja usando o **yarn** como gerenciado de pacotes
+_To run the backend server you need to execute the command below via terminal inside the backend folder:_
+
+- Caso esteja usando o **yarn** como gerenciador de pacotes
+- _If you are using **yarn** as a package manager_
 ```
 yarn dev
 ```
 
 - Caso esteja usando o **npm** como gerenciador de pacotes
+- _If you are using **npm** as a package manager_
 ```
 npm run dev
 ```
@@ -43,17 +57,20 @@ npm run dev
 ### Frontend
 
 Para rodar a aplicação frontend é preciso executar o comando abaixo via terminal dentro da pasta frontend:
+_To run the frontend application you need to execute the command below via terminal inside the frontend folder:_
 
-- Caso esteja usando o **yarn** como gerenciado de pacotes
+- Caso esteja usando o **yarn** como gerenciador de pacotes
+- _If you are using **yarn** as a package manager_
 ```
 yarn start
 ```
 
 - Caso esteja usando o **npm** como gerenciador de pacotes
+- _If you are using **npm** as a package manager_
 ```
 npm run start
 ```
 
-## Authors
+## Author
 
-* **Gabriel Budke de Sousa** - [PurpleBooth](https://github.com/PurpleBooth)
+* **Gabriel Budke de Sousa**
