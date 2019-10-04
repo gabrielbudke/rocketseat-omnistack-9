@@ -18,9 +18,9 @@ export default function Login({ history }) {
         // Armazena o id do usuário/session no storage do navegador
         localStorage.setItem('user', _id);
 
+        // Utilizado para fazer navegação
         history.push('/dashboard');
-
-
+        
     }
 
     return (
