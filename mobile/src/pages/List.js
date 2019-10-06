@@ -32,4 +32,5 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     marginTop: 30
   }
+  
 });
