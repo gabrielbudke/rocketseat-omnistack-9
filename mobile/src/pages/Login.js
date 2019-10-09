@@ -9,7 +9,7 @@ export default function Login({ navigation }) {
   const [email, setEmail] = useState('');
   const [techs, setTechs] = useState('');
 
-  /* Para evitar que caso exista um usuário ele volte para a tela de login*/
+  /* Para evitar que caso exista um usuário ele volte para a tela de login ou para voltar ao login só comentar essa função 'useEffect'*/
   useEffect(() => {
     AsyncStorage.getItem('user').then(user => {
       if(user) {
